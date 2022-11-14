@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "ars-ex",
+        "pack_format": 6,
+        "_comment": "Literally ZettaiArs but without Mana and Artifice"
+    }
+}

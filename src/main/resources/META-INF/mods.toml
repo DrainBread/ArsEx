@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+license="All rights reserved"
+
+[[mods]]
+modId="arsex"
+version="1.16.5-1.0.0"
+displayName="Ars Ex"
+authors="calciumboi"
+description='''
+Integrates Ars Nouveau and PlayerEx, similar to ZettaiSword's ZettaiArs but it doesn't require Mana And Artifice to run!
+'''
+
+[[dependencies.arsex]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.arsex]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.arsex]]
+    modId="ars_nouveau"
+    mandatory=false
+    versionRange="[1.25.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.arsex]]
+    modId="playerex"
+    mandatory=false
+    versionRange="[1.1.8,)"
+    ordering="AFTER"
+    side="BOTH"
